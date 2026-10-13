@@ -1,3 +1,6 @@
+export async function getStudentById(id) { ... }
+export async function getCommentsByStudentId(id) { ... }
+
 import mysql from 'mysql2/promise';
 
 let pool;
